@@ -16,7 +16,7 @@
 		583428BD22C25C120087AE95 /* OrderListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428BC22C25C120087AE95 /* OrderListTableViewController.swift */; };
 		583428BF22C262CC0087AE95 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428BE22C262CC0087AE95 /* NewOrderViewController.swift */; };
 		583428C222C273870087AE95 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C122C273870087AE95 /* WebServices.swift */; };
-		583428C522C2760C0087AE95 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C422C2760C0087AE95 /* Coffee.swift */; };
+		583428C522C2760C0087AE95 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C422C2760C0087AE95 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		583428BC22C25C120087AE95 /* OrderListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTableViewController.swift; sourceTree = "<group>"; };
 		583428BE22C262CC0087AE95 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		583428C122C273870087AE95 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
-		583428C422C2760C0087AE95 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		583428C422C2760C0087AE95 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 		583428C322C275CB0087AE95 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				583428C422C2760C0087AE95 /* Coffee.swift */,
+				583428C422C2760C0087AE95 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 				5834289E22C25A850087AE95 /* ViewController.swift in Sources */,
 				583428BD22C25C120087AE95 /* OrderListTableViewController.swift in Sources */,
 				5834289C22C25A850087AE95 /* AppDelegate.swift in Sources */,
-				583428C522C2760C0087AE95 /* Coffee.swift in Sources */,
+				583428C522C2760C0087AE95 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
