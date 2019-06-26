@@ -8,16 +8,16 @@
 
 import Foundation
 
-struct Resource{
-    func loadData(url:URL,completion:@escaping ((Order?)->())){
+class Resource{
+    func loadData(url:URL,completion:@escaping (([Order]?)->())){
         URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let data = data, error == nil else{
                 completion(nil)
                 return
             }
-            let result = try? JSONDecoder().decode(Order.self, from: data)
-            if let result = result {
-                completion(result)
+            let result = try? JSONDecoder().decode([Order].self, from: data)
+            if let resultOfDecoding = result {
+                completion(resultOfDecoding)
             }else{
                 completion(nil)
             }

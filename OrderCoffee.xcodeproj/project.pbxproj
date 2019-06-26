@@ -17,6 +17,7 @@
 		583428BF22C262CC0087AE95 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428BE22C262CC0087AE95 /* NewOrderViewController.swift */; };
 		583428C222C273870087AE95 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C122C273870087AE95 /* WebServices.swift */; };
 		583428C522C2760C0087AE95 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C422C2760C0087AE95 /* Order.swift */; };
+		EEE4D4E922C3AD160080504C /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4D4E822C3AD160080504C /* OrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		583428BE22C262CC0087AE95 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		583428C122C273870087AE95 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		583428C422C2760C0087AE95 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EEE4D4E822C3AD160080504C /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		5834289A22C25A850087AE95 /* OrderCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				EEE4D4E722C3A9FA0080504C /* ViewModel */,
 				583428C322C275CB0087AE95 /* Model */,
 				583428C022C273750087AE95 /* Services */,
 				583428BB22C25B240087AE95 /* Controllers */,
@@ -130,6 +133,14 @@
 				583428C422C2760C0087AE95 /* Order.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EEE4D4E722C3A9FA0080504C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEE4D4E822C3AD160080504C /* OrderViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 				5834289E22C25A850087AE95 /* ViewController.swift in Sources */,
 				583428BD22C25C120087AE95 /* OrderListTableViewController.swift in Sources */,
 				5834289C22C25A850087AE95 /* AppDelegate.swift in Sources */,
+				EEE4D4E922C3AD160080504C /* OrderViewModel.swift in Sources */,
 				583428C522C2760C0087AE95 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

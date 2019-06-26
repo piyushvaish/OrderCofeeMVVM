@@ -20,6 +20,7 @@ enum CoffeeSize : String,Codable{
     case large
 }
 
+// Chose struct for a model since it contains all the value types and no reference types. Dont intend to do any inheritance. Change in one place wont reflect in other places as compared to using classs.
 struct Order : Codable{
     let name:String
     let email:String
