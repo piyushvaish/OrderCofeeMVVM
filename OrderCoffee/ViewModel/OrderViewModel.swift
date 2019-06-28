@@ -22,7 +22,12 @@ extension OrderListViewModel{
 }
 
 struct OrderViewModel{
+    
     var order : Order
+    init(order:Order) {
+        self.order = order
+    }
+    
 }
 
 extension OrderViewModel{

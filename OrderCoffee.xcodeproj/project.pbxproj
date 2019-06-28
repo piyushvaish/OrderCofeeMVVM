@@ -17,6 +17,7 @@
 		583428BF22C262CC0087AE95 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428BE22C262CC0087AE95 /* NewOrderViewController.swift */; };
 		583428C222C273870087AE95 /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C122C273870087AE95 /* WebServices.swift */; };
 		583428C522C2760C0087AE95 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583428C422C2760C0087AE95 /* Order.swift */; };
+		EE6CC47822C62568001F1476 /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6CC47722C62568001F1476 /* AddCoffeeOrderViewModel.swift */; };
 		EEE4D4E922C3AD160080504C /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE4D4E822C3AD160080504C /* OrderViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		583428BE22C262CC0087AE95 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		583428C122C273870087AE95 /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
 		583428C422C2760C0087AE95 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EE6CC47722C62568001F1476 /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		EEE4D4E822C3AD160080504C /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				EEE4D4E822C3AD160080504C /* OrderViewModel.swift */,
+				EE6CC47722C62568001F1476 /* AddCoffeeOrderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				583428BF22C262CC0087AE95 /* NewOrderViewController.swift in Sources */,
+				EE6CC47822C62568001F1476 /* AddCoffeeOrderViewModel.swift in Sources */,
 				583428C222C273870087AE95 /* WebServices.swift in Sources */,
 				5834289E22C25A850087AE95 /* ViewController.swift in Sources */,
 				583428BD22C25C120087AE95 /* OrderListTableViewController.swift in Sources */,
